@@ -28,3 +28,11 @@ if (options.length > 1) {
     console.log('please input command');
   }
 }
+
+/** 非命令的参数解析 */
+if (command.startsWith('--') || command.startsWith('-')) {
+  const globalOption = command.replace(/--|-/g, '');
+  if (globalOption === 'version' || globalOption.toLowerCase() === 'v') {
+    console.log('1.0.0');
+  }
+}
