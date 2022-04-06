@@ -16,5 +16,10 @@ module.exports = {
   },
   sub (a, b) {
     return a - b
+  },
+
+  // 初始化命令
+  init ({ option, param }) {
+    console.log("正在初始化，", '参数名为：', option, "参数值为：", param )
   }
 }
