@@ -1,6 +1,6 @@
 {
   "name": "@windhjt/test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "这是一个脚手架测试",
   "bin": {
     "wind-test": "bin/index.js"
