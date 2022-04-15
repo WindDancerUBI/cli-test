@@ -1,3 +1,5 @@
-module.exports = function () {
-  console.log("hello utils");
-};
+import { pathExistsSync } from "path-exists";
+
+export function exists(p) {
+  return pathExistsSync(p);
+}
