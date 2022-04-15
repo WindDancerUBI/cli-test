@@ -2,4 +2,4 @@
 
 // require("../dist/core");
 
-import "./core.mjs";
+import "./core.js";
